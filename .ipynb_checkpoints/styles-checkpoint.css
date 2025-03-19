@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: 'Nexa Bold', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Sidebar */
+.sidebar .stTextInput, .sidebar .stSelectbox {
+    margin-bottom: 15px;
+}
+
+.sidebar {
+    background: linear-gradient(135deg, #4CAF50, #81C784);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.stButton button {
+    background: linear-gradient(135deg, #4CAF50, #81C784);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+    border: none;
+    font-family: 'Nexa Bold', sans-serif;
+}
+
+.stButton button:hover {
+    background: linear-gradient(135deg, #388E3C, #4CAF50);
+}
+
+/* Input Fields */
+.stTextInput input, .stNumberInput input, .stSelectbox select {
+    background-color: #f9f9f9;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Nexa Bold', sans-serif;
+}
+
+/* Risk Level Indicators */
+.low-risk {
+    color: green;
+    font-size:
