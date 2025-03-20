@@ -5,8 +5,7 @@ import seaborn as sns
 import os
 
 # Replace this path with the actual path to your file
-DATA_PATH = r"C:\Users\Khalid\Desktop\heart-disease\heart-disease.csv"
-
+DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'heart-disease.csv')
 df = pd.read_csv(DATA_PATH)
 
 # Title
