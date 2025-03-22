@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Predictor App
 
-![Streamlit App](https://via.placeholder.com/800x400?text=App+Screenshot)  
+![Streamlit App](https://github.com/khalidkarimkqr/heart-disease-predictor/blob/main/images/app_screenshot.png)  
 *Screenshot of the Heart Disease Prediction App*
 
 ---
