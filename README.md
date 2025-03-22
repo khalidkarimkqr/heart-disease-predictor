@@ -38,7 +38,7 @@ This notebook includes:
 - Evaluation metrics and insights into model performance.
 ---
 
-## 💡 What is this App? {#what-is-this-app}
+## 💡 What is this App? <a id="what-is-this-app"></a>
 
 The **Heart Disease Predictor App** is a machine learning-powered tool that predicts the probability of heart disease based on clinical parameters such as age, sex, cholesterol levels, blood pressure, and more. The app uses a Logistic Regression model trained on the **Heart Disease Dataset** from the UCI Machine Learning Repository.
 
@@ -50,7 +50,7 @@ This app is designed to:
 
 ---
 
-## 🌟 Why is this App Useful? {#why-is-this-app-useful}
+## 🌟 Why is this App Useful? <a id="why-is-this-app-useful"></a>
 
 Heart disease is one of the leading causes of death worldwide. Early detection and risk assessment can significantly improve outcomes. This app helps users:
 - Assess their risk of heart disease in minutes.
@@ -61,7 +61,7 @@ It is intended for educational purposes and should not replace professional medi
 
 ---
 
-## 🔧 How Does It Work? {#how-does-it-work}
+## 🔧 How Does It Work? <a id="how-does-it-work"></a>
 
 The app uses a pre-trained Logistic Regression model to predict the probability of heart disease. Here’s how it works:
 1. Users input their medical attributes (e.g., age, cholesterol, blood pressure).
@@ -74,7 +74,7 @@ The app uses a pre-trained Logistic Regression model to predict the probability 
 
 ---
 
-## 🧠 Model Training and Data Analysis {#model-training-and-data-analysis}
+## 🧠 Model Training and Data Analysis <a id="model-training-and-data-analysis"></a>
 
 ### Overview
 The model was trained using the **Heart Disease Dataset** from the UCI Machine Learning Repository. Below is a summary of the steps I followed to build the model:
@@ -108,7 +108,7 @@ The model was trained using the **Heart Disease Dataset** from the UCI Machine L
 ---
 
 
-## 🛠 Features {#features}
+## 🛠 Features <a id="features"></a>
 
 - **Prediction**: Enter medical attributes to get a personalized risk assessment.
 - **SHAP Explanations**: Understand which features contribute most to your prediction.
@@ -118,7 +118,7 @@ The model was trained using the **Heart Disease Dataset** from the UCI Machine L
 
 ---
 
-## 🚀 How to Run Locally {#how-to-run-locally}
+## 🚀 How to Run Locally <a id="how-to-run-locally"></a>
 
 If you want to run this app on your local machine, follow these steps:
 
