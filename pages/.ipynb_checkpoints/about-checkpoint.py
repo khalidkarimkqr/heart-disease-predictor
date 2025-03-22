@@ -32,7 +32,7 @@ The dataset contains 14 attributes, including:
 - Python libraries: Pandas, Scikit-learn, Matplotlib, Seaborn, SHAP, Streamlit.
 - Deployment: Streamlit Community Cloud.
 
-For more details, check out the [GitHub repository](https://github.com/yourusername/end-to-end-heart-disease-classification).
+For more details, check out the [GitHub repository](https://github.com/khalidkarimkqr/heart-disease-predictor).
 """)
 
 # FAQ Section

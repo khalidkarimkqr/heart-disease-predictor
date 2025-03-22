@@ -18,9 +18,9 @@ local_css()
 load_fonts()
 
 # Landing Page
-st.title("❤️ Heart Disease Prediction")
+st.title("❤️ Heart Disease Predictor")
 st.write("""
-Welcome to the Heart Disease Prediction App! This application uses machine learning to predict the probability of heart disease based on clinical parameters.
+Welcome to the Heart Disease Predictor App! This application uses machine learning to predict the probability of heart disease based on clinical parameters.
 
 ### How It Works:
 1. Click the "Predict Now" button below.

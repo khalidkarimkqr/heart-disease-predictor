@@ -27,7 +27,7 @@ Data analysing and visualization:
 
 ---
 ### Dive Deeper: Jupyter Notebook <a id="jupyter-notebook"></a>
-To explore the full data analysis, visualization, and model training process, check out the **Jupyter Notebook**:
+To explore the full data analysis, visualization, and model training process, check out my code here **Jupyter Notebook**:
 
 [`heart_disease_analysis.ipynb`](https://github.com/khalidkarimkqr/heart-disease-predictor/blob/main/end-to-end-heart-disease-classification.ipynb).
 
