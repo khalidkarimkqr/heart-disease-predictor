@@ -1,7 +1,7 @@
 # ❤️ Heart Disease Predictor App
 
 ![Streamlit App](https://github.com/khalidkarimkqr/heart-disease-predictor/blob/main/images/app_screenshot.png)  
-*Screenshot of the Heart Disease Prediction App*
+*Screenshot of the Heart Disease Predictor App*
 
 ---
 
@@ -16,19 +16,29 @@ Data analysing and visualization:
 ![Demo GIF](gifs/data.gif)
 
 ## 📌 Table of Contents
-
-1. [What is this App?](#what-is-this-app)
-2. [Why is this App Useful?](#why-is-this-app-useful)
-3. [How Does It Work?](#how-does-it-work)
-4. [Model Training and Data Analysis](#model-training-and-data-analysis)
-5. [Jupyter Notebook](#jupyter-notebook)
+1. [Jupyter Notebook](#jupyter-notebook)
+2. [What is this App?](#what-is-this-app)
+3. [Why is this App Useful?](#why-is-this-app-useful)
+4. [How Does It Work?](#how-does-it-work)
+5. [Model Training and Data Analysis](#model-training-and-data-analysis)
 6. [Features](#features)
 7. [How to Run Locally](#how-to-run-locally)
 
 
 ---
+### Dive Deeper: Jupyter Notebook {#jupyter-notebook}
+To explore the full data analysis, visualization, and model training process, check out the **Jupyter Notebook**:
 
-## 💡 What is this App?
+[`heart_disease_analysis.ipynb`](https://github.com/khalidkarimkqr/heart-disease-predictor/blob/main/end-to-end-heart-disease-classification.ipynb).
+
+This notebook includes:
+- Detailed markdown explanations of each step.
+- Code for data cleaning, exploratory data analysis (EDA), feature selection, and model training.
+- Visualizations like heatmaps, pair plots, and SHAP explanations.
+- Evaluation metrics and insights into model performance.
+---
+
+## 💡 What is this App? {#what-is-this-app}
 
 The **Heart Disease Predictor App** is a machine learning-powered tool that predicts the probability of heart disease based on clinical parameters such as age, sex, cholesterol levels, blood pressure, and more. The app uses a Logistic Regression model trained on the **Heart Disease Dataset** from the UCI Machine Learning Repository.
 
@@ -40,7 +50,7 @@ This app is designed to:
 
 ---
 
-## 🌟 Why is this App Useful?
+## 🌟 Why is this App Useful? {#why-is-this-app-useful}
 
 Heart disease is one of the leading causes of death worldwide. Early detection and risk assessment can significantly improve outcomes. This app helps users:
 - Assess their risk of heart disease in minutes.
@@ -51,7 +61,7 @@ It is intended for educational purposes and should not replace professional medi
 
 ---
 
-## 🔧 How Does It Work?
+## 🔧 How Does It Work? {#how-does-it-work}
 
 The app uses a pre-trained Logistic Regression model to predict the probability of heart disease. Here’s how it works:
 1. Users input their medical attributes (e.g., age, cholesterol, blood pressure).
@@ -60,11 +70,11 @@ The app uses a pre-trained Logistic Regression model to predict the probability 
    - A risk level (Low, Medium, High).
    - SHAP explanations to show feature contributions.
    - Feature importance visualization.
-   - Health tips and gamification badges.
+   - Health tips
 
 ---
 
-## 🧠 Model Training and Data Analysis
+## 🧠 Model Training and Data Analysis {#model-training-and-data-analysis}
 
 ### Overview
 The model was trained using the **Heart Disease Dataset** from the UCI Machine Learning Repository. Below is a summary of the steps I followed to build the model:
@@ -94,22 +104,11 @@ The model was trained using the **Heart Disease Dataset** from the UCI Machine L
    - Saved the trained model as `heart_disease_model.pkl` using `pickle`.
    - Integrated the model into the Streamlit app for real-time predictions.
 
----
-### Dive Deeper: Jupyter Notebook
-To explore the full data analysis, visualization, and model training process, check out the **Jupyter Notebook**:
-
-[`heart_disease_analysis.ipynb`](https://github.com/khalidkarimkqr/heart-disease-predictor/blob/main/end-to-end-heart-disease-classification.ipynb).
-
-This notebook includes:
-- Detailed markdown explanations of each step.
-- Code for data cleaning, exploratory data analysis (EDA), feature selection, and model training.
-- Visualizations like heatmaps, pair plots, and SHAP explanations.
-- Evaluation metrics and insights into model performance.
 
 ---
 
 
-## 🛠 Features
+## 🛠 Features {#features}
 
 - **Prediction**: Enter medical attributes to get a personalized risk assessment.
 - **SHAP Explanations**: Understand which features contribute most to your prediction.
@@ -119,7 +118,7 @@ This notebook includes:
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 How to Run Locally {#how-to-run-locally}
 
 If you want to run this app on your local machine, follow these steps:
 
