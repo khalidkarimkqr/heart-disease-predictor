@@ -9,7 +9,7 @@
 
 Here’s a quick demo of the Heart Disease Prediction App in action:
 
-![Demo GIF](gifs/waltkthrough_project.gif)
+![Demo GIF](gifs/walkthrough_project.gif)
 
 ## 📌 Table of Contents
 
