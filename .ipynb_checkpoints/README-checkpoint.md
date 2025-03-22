@@ -11,12 +11,10 @@
 2. [Why is this App Useful?](#why-is-this-app-useful)
 3. [How Does It Work?](#how-does-it-work)
 4. [Model Training and Data Analysis](#model-training-and-data-analysis)
-5. [Features](#features)
-6. [How to Run Locally](#how-to-run-locally)
-7. [Screenshots](#screenshots)
-8. [Jupyter Notebook](#jupyter-notebook)
-9. [Contributing](#contributing)
-10. [License](#license)
+5. [Jupyter Notebook](#jupyter-notebook)
+6. [Features](#features)
+7. [How to Run Locally](#how-to-run-locally)
+8. [Screenshots](#screenshots)
 
 ---
 
@@ -86,10 +84,20 @@ The model was trained using the **Heart Disease Dataset** from the UCI Machine L
    - Saved the trained model as `heart_disease_model.pkl` using `pickle`.
    - Integrated the model into the Streamlit app for real-time predictions.
 
+---
 ### Dive Deeper: Jupyter Notebook
-For a detailed walkthrough of the entire process, including code, visualizations, and markdown explanations, check out the accompanying **Jupyter Notebook**: [`heart_disease_analysis.ipynb`](https://github.com/khalidkarimkqr/heart-disease-predictor/blob/main/end-to-end-heart-disease-classification.ipynb).
+To explore the full data analysis, visualization, and model training process, check out the **Jupyter Notebook**:
+
+[`heart_disease_analysis.ipynb`](https://github.com/khalidkarimkqr/heart-disease-predictor/blob/main/end-to-end-heart-disease-classification.ipynb).
+
+This notebook includes:
+- Detailed markdown explanations of each step.
+- Code for data cleaning, exploratory data analysis (EDA), feature selection, and model training.
+- Visualizations like heatmaps, pair plots, and SHAP explanations.
+- Evaluation metrics and insights into model performance.
 
 ---
+
 
 ## 🛠 Features
 
@@ -97,7 +105,6 @@ For a detailed walkthrough of the entire process, including code, visualizations
 - **SHAP Explanations**: Understand which features contribute most to your prediction.
 - **Feature Importance**: Visualize the importance of each feature in the model.
 - **Health Tips**: Get actionable advice based on your risk level.
-- **Gamification**: Earn badges for low, medium, or high-risk predictions.
 - **About Page**: Learn more about the app, dataset, and model.
 
 ---
@@ -106,11 +113,6 @@ For a detailed walkthrough of the entire process, including code, visualizations
 
 If you want to run this app on your local machine, follow these steps:
 
-### Prerequisites
-
-- Python 3.8 or higher
-- Git installed on your system
-- Basic knowledge of Python and Streamlit
 
 ### Step 1: Clone the Repository
 
