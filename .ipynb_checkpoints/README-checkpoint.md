@@ -116,5 +116,19 @@ If you want to run this app on your local machine, follow these steps:
 
 ```bash
 git clone https://github.com/khalidkarimkqr/heart-disease-predictor.git
-cd heart-disease-predictor
+cd heart-disease-predictor```
+
+### Step 2: Install Dependencies
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# If you encounter issues, upgrade pip:
+pip install --upgrade pip```
+
+### Step 3: Run the App
+```bash
+# Run the app
+streamlit run streamlit_app.py```
 
