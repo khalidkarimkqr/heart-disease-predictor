@@ -5,6 +5,12 @@
 
 ---
 
+## Demo
+
+Here’s a quick demo of the Heart Disease Prediction App in action:
+
+![Demo GIF](gifs/waltkthrough_project.gif)
+
 ## 📌 Table of Contents
 
 1. [What is this App?](#what-is-this-app)
