@@ -11,6 +11,10 @@ Here’s a quick demo of the Heart Disease Prediction App in action:
 
 ![Demo GIF](gifs/walkthrough_project.gif)
 
+Data analysing and visualization:
+
+![Demo GIF](gifs/data.gif)
+
 ## 📌 Table of Contents
 
 1. [What is this App?](#what-is-this-app)
@@ -20,7 +24,7 @@ Here’s a quick demo of the Heart Disease Prediction App in action:
 5. [Jupyter Notebook](#jupyter-notebook)
 6. [Features](#features)
 7. [How to Run Locally](#how-to-run-locally)
-8. [Screenshots](#screenshots)
+
 
 ---
 
