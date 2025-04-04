@@ -118,7 +118,7 @@ The model was trained using the **Heart Disease Dataset** from the UCI Machine L
 
 ---
 
-## 🚀 How to Run Locally <a id="how-to-run-locally"></a>
+## 🚀 How to Run Locally on your computer <a id="how-to-run-locally"></a>
 
 If you want to run this app on your local machine, follow these steps:
 
