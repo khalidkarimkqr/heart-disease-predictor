@@ -7,7 +7,7 @@
 
 ## Demo
 
-Here’s a quick demo of the Heart Disease Prediction App in action:
+Here’s a quick demo of the Heart Disease Predictor App in action:
 
 ![Demo GIF](gifs/walkthrough_project.gif)
 
